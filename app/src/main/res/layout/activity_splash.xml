@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado">
+
+    <LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerInParent="true" android:gravity="center_horizontal" android:orientation="vertical">
+
+        <TextView
+            android:layout_width="96dp" android:layout_height="96dp"
+            android:background="@drawable/logo_circulo" android:gravity="center"
+            android:text="G" android:textColor="@color/cyan" android:textSize="52sp" android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="22dp" android:text="GRM PAY"
+            android:textColor="#FFFFFF" android:textSize="34sp" android:textStyle="bold" android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="C O N E X I Ó N" android:textColor="@color/cyan" android:textSize="13sp" android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:text="Recaudo y facturación FTTH"
+            android:textColor="@color/ice" android:textSize="14sp" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="26dp" android:layout_height="26dp" android:layout_marginTop="34dp"
+            android:indeterminateTint="@color/cyan" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtServidor"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:gravity="center"
+        android:padding="22dp" android:textColor="@color/ice" android:textSize="12sp" />
+</RelativeLayout>

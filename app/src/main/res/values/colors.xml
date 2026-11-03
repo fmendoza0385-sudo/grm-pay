@@ -1,0 +1,12 @@
+<resources>
+    <color name="navy950">#011A3F</color>
+    <color name="navy900">#002455</color>
+    <color name="navy800">#0D3563</color>
+    <color name="blue600">#1565C0</color>
+    <color name="cyan">#1FD8F5</color>
+    <color name="cyan600">#00B8D9</color>
+    <color name="ice">#CBEFFE</color>
+    <color name="paper">#F3F9FF</color>
+    <color name="ink">#0B2A5B</color>
+    <color name="muted">#5B7396</color>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El servidor GRM_PAY está en la red local FTTH y usa http (sin certificado): se permite tráfico en claro. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
