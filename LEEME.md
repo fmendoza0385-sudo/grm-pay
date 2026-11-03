@@ -4,7 +4,9 @@ App nativa ligera que abre el aplicativo PHP **GRM_PAY** dentro de la red FTTH:
 `http://172.0.20.6/GRM_PAY/login.php` (editable desde la app).
 
 ## Qué incluye
-- Pantalla de inicio con la marca GRM (paleta azul/cian) y acceso a "cambiar servidor".
+- Pantalla inicial (Splash) con la marca GRM (paleta azul/cian) y acceso a "cambiar servidor".
+- Después del Splash abre la pantalla de inicio de sesión del servidor: logo, título "USUARIO Y CLAVE", campos de usuario y clave y botón "ENTRAR".
+- Las credenciales se validan en el servidor PHP; si son correctas se abre el dashboard y, si no, se muestra el error del sistema.
 - WebView a pantalla completa con barra de progreso; la sesión se conserva mientras la app esté abierta.
 - Pantalla de "Sin conexión" con **Reintentar** y **Configurar servidor** (la IP se cambia sin recompilar).
 - Diálogos nativos para las confirmaciones de la página (registrar / anular pago).
